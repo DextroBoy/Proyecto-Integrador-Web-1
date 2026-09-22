@@ -1,6 +1,5 @@
 /**
  * Vista: Inicio de sesión
-
  */
 export function renderLoginView(): string {
   return /*html*/ `
@@ -8,6 +7,8 @@ export function renderLoginView(): string {
       <div class="tarjeta-autenticacion">
         <h1 id="titulo-login" class="titulo-tarjeta">Iniciar sesión</h1>
         <p class="subtitulo-tarjeta">Accede con tu correo y contraseña</p>
+
+        <div id="login-message" class="mensaje-formulario" role="alert" aria-live="polite"></div>
 
         <form id="formulario-login" class="formulario-autenticacion" novalidate>
           <div class="campo-formulario">

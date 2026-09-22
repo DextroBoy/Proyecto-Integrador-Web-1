@@ -17,6 +17,8 @@ export function renderRegistroView(): string {
         <h1 id="titulo-registro" class="titulo-tarjeta">Crear cuenta</h1>
         <p class="subtitulo-tarjeta">Regístrate como cliente o agente</p>
 
+        <div id="register-message" class="mensaje-formulario" role="alert" aria-live="polite"></div>
+
         <form id="formulario-registro" class="formulario-autenticacion" novalidate>
           <div class="campo-formulario">
             <label for="tipo-usuario">Tipo de usuario</label>
