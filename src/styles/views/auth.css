@@ -1,0 +1,44 @@
+.vista-autenticacion {
+  display: flex;
+  justify-content: center;
+  padding-top: var(--spacing-lg);
+}
+
+.tarjeta-autenticacion {
+  background-color: var(--color-surface);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  padding: var(--spacing-xl);
+  width: 100%;
+  max-width: 420px;
+}
+
+.tarjeta-autenticacion-amplia {
+  max-width: 640px;
+}
+
+.titulo-tarjeta {
+  margin-bottom: var(--spacing-xs);
+}
+
+.subtitulo-tarjeta {
+  color: var(--color-text-muted);
+  margin-bottom: var(--spacing-lg);
+}
+
+.formulario-autenticacion {
+  box-shadow: none;
+  padding: 0;
+  background: transparent;
+}
+
+.pista-formulario {
+  margin-top: var(--spacing-md);
+  text-align: center;
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+
+.formulario-autenticacion .boton-principal {
+  width: 100%;
+}

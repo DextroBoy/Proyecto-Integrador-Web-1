@@ -1,0 +1,10 @@
+/* ==========================================================================
+   Punto de entrada de estilos
+     ========================================================================== */
+@import "./variables.css";
+@import "./base.css";
+@import "./layout.css";
+@import "./views/auth.css";
+@import "./views/cliente.css";
+@import "./views/agente.css";
+@import "./views/admin.css";

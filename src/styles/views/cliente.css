@@ -1,0 +1,49 @@
+.cuadricula-eventos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: var(--spacing-lg);
+}
+
+.tarjeta-evento {
+  background-color: var(--color-surface);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  padding: var(--spacing-lg);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+
+.estado-evento {
+  align-self: flex-start;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  color: #fff;
+  margin-bottom: var(--spacing-sm);
+}
+
+.estado-programado { background-color: var(--color-estado-programado); }
+.estado-en-boleteria { background-color: var(--color-estado-en-boleteria); }
+.estado-en-vivo { background-color: var(--color-estado-en-vivo); }
+.estado-finalizado { background-color: var(--color-estado-finalizado); }
+.estado-cancelado { background-color: var(--color-estado-cancelado); }
+
+.nombre-evento {
+  font-size: 1.1rem;
+}
+
+.detalle-evento {
+  margin: 0;
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+
+.precio-evento {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin: var(--spacing-sm) 0;
+}

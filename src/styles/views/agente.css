@@ -1,0 +1,8 @@
+/* Estilos específicos de las vistas de Agente.
+   La mayoría de estructura (formularios y tablas) se reutiliza de layout.css. */
+
+#tabla-reservas-agente td:last-child,
+#tabla-eventos-agente td:last-child {
+  display: flex;
+  gap: var(--spacing-sm);
+}

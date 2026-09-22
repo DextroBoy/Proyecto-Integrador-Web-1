@@ -1,0 +1,107 @@
+.cuadricula-estadisticas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--spacing-md);
+}
+
+.tarjeta-estadistica {
+  background-color: var(--color-surface);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  padding: var(--spacing-lg);
+  text-align: center;
+}
+
+.etiqueta-estadistica {
+  display: block;
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+  margin-bottom: var(--spacing-xs);
+}
+
+.valor-estadistica {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.cuadricula-graficas {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-lg);
+}
+
+@media (max-width: 768px) {
+  .cuadricula-graficas {
+    grid-template-columns: 1fr;
+  }
+}
+
+.tarjeta-grafica {
+  background-color: var(--color-surface);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  padding: var(--spacing-lg);
+}
+
+.tarjeta-grafica-amplia {
+  grid-column: 1 / -1;
+}
+
+.grafica-barras {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 0.5rem;
+  align-items: end;
+  min-height: 220px;
+  padding-top: 1rem;
+}
+
+.columna-grafica {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  gap: 0.5rem;
+  min-height: 200px;
+}
+
+.valor-columna {
+  font-size: 0.7rem;
+  color: var(--color-text-muted);
+  text-align: center;
+}
+
+.barra-grafica {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+  background: linear-gradient(180deg, #8b5cf6, #4f46e5);
+  min-height: 24px;
+}
+
+.lista-metricas {
+  list-style: none;
+  margin: 1rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.lista-metricas li {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  background: rgba(79, 70, 229, 0.05);
+}
+
+.lista-metricas span {
+  color: var(--color-text-muted);
+}
+
+.lista-metricas strong {
+  color: var(--color-primary);
+}
