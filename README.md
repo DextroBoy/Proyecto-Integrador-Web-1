@@ -35,40 +35,4 @@ src/
 └── ...
 ```
 
-## Vistas implementadas
 
-- Auth
-  - Inicio de sesión
-  - Registro
-- Cliente
-  - Eventos disponibles
-  - Mis reservas
-- Agente
-  - Registrar evento
-  - Eventos registrados
-  - Administrar reservas
-- Administrador
-  - Dashboard con métricas y datos resumidos
-
-## Servicios mockeados incluidos
-
-- Ubicación: ciudades y departamentos
-- Eventos
-- Reservas
-- Dashboard con métricas
-- Autenticación básica
-
-## Recomendación para el equipo
-
-Para una entrega grupal y trabajo paralelo, cada integrante puede asumir una parte del proyecto, por ejemplo:
-
-- Integrante 1: Autenticación y registro
-- Integrante 2: Cliente y reservas
-- Integrante 3: Agente y gestión de eventos
-- Integrante 4: Admin y dashboard
-
-La estructura base ya quedó preparada para que cada integrante haga pull del proyecto y desarrolle su módulo sin romper la arquitectura existente.
-
-## Nota
-
-Este avance utiliza información mockeada, tal como lo exige el enunciado del proyecto, sin conexión aún a backend ni base de datos relacional.
